@@ -1,0 +1,20 @@
+Collecting transformers
+  Downloading transformers-4.24.0-py3-none-any.whl (5.5 MB)
+Requirement already satisfied: requests in c:\users\i355109\anaconda3\lib\site-packages (from transformers) (2.26.0)
+Requirement already satisfied: huggingface-hub<1.0,>=0.10.0 in c:\users\i355109\anaconda3\lib\site-packages (from transformers) (0.11.0)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\i355109\anaconda3\lib\site-packages (from transformers) (2021.8.3)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\i355109\anaconda3\lib\site-packages (from transformers) (5.4.1)
+Requirement already satisfied: packaging>=20.0 in c:\users\i355109\anaconda3\lib\site-packages (from transformers) (21.3)
+Requirement already satisfied: tokenizers!=0.11.3,<0.14,>=0.11.1 in c:\users\i355109\anaconda3\lib\site-packages (from transformers) (0.11.6)
+Requirement already satisfied: numpy>=1.17 in c:\users\i355109\anaconda3\lib\site-packages (from transformers) (1.20.3)
+Requirement already satisfied: tqdm>=4.27 in c:\users\i355109\anaconda3\lib\site-packages (from transformers) (4.62.3)
+Requirement already satisfied: filelock in c:\users\i355109\anaconda3\lib\site-packages (from transformers) (3.8.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in c:\users\i355109\anaconda3\lib\site-packages (from huggingface-hub<1.0,>=0.10.0->transformers) (3.10.0.2)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in c:\users\i355109\anaconda3\lib\site-packages (from packaging>=20.0->transformers) (3.0.4)
+Requirement already satisfied: colorama in c:\users\i355109\anaconda3\lib\site-packages (from tqdm>=4.27->transformers) (0.4.4)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\i355109\anaconda3\lib\site-packages (from requests->transformers) (2021.10.8)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\i355109\anaconda3\lib\site-packages (from requests->transformers) (3.2)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\users\i355109\anaconda3\lib\site-packages (from requests->transformers) (1.26.7)
+Requirement already satisfied: charset-normalizer~=2.0.0 in c:\users\i355109\anaconda3\lib\site-packages (from requests->transformers) (2.0.4)
+Installing collected packages: transformers
+Successfully installed transformers-4.24.0
