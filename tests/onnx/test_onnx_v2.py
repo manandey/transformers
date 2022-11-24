@@ -184,6 +184,7 @@ PYTORCH_EXPORT_MODELS = {
     ("beit", "microsoft/beit-base-patch16-224"),
     ("big-bird", "hf-internal-testing/tiny-random-BigBirdModel"),
     ("camembert", "camembert-base"),
+    ("canine", "google/canine-s"),
     ("clip", "hf-internal-testing/tiny-random-CLIPModel"),
     ("convbert", "hf-internal-testing/tiny-random-ConvBertModel"),
     ("codegen", "hf-internal-testing/tiny-random-CodeGenModel"),
